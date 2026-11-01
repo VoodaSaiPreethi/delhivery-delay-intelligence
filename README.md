@@ -164,3 +164,4 @@ The tier label should be treated as an administrative or capacity label, not as 
 4. **Tier label as a feature.** `hub_tier` is a feature, but four hubs behave unlike their label. The classifier can under-flag parcels at mislabelled hubs such as Nagpur or Kochi.
 5. **No time-based validation.** The splits are random, not chronological, and the data covers only July–September 2026 with one sale event. Behaviour across seasons and future festivals is untested.
 6. **Median filling.** Missing distances and declared values are filled with medians computed on the full historical table. That is reasonable for a few gaps, but it would hide a systematic data-capture failure.
+"# delhivery-delay-intelligence" 
